@@ -1,9 +1,8 @@
 {
   "name": "react-myself",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "homepage": "./",
+  "homepage": "http://./",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
@@ -129,5 +128,13 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidaozhi/react-mg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chidaozhi/react-mg/issues"
+  },
+  "description": ""
 }

@@ -19,7 +19,6 @@ const { Header, Sider, Content } = Layout;
 const SubMenu = Menu.SubMenu;
 // React.prototype.$http = axios;
 
-console.log(M_1.m_1);
 class App extends React.Component{
     state = {
         collapsed: false,
