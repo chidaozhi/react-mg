@@ -1,0 +1,63 @@
+/*
+*整体样式
+*/
+body {
+	font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif;
+	background: white;
+	line-height: 18px;
+}
+
+body form label {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+body form input {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.form-radio {
+	height: 34px;
+	vertical-align: middle;
+}
+
+.form-radio label, .form-radio div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.form-radio div {
+	padding-top: 8px;
+	margin: 0 10px 0 5px;
+}
+
+/*表单所在块级作用域样式*/
+.form-content {
+	width: 660px;
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto 0;
+	padding: 10px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+*修改bootstrap默认表单样式
+*/
+body form .form-control {
+	display: inline-block;
+	width: auto;
+}
+
+body form .form-control[readonly] {
+	background-color: #fff;
+}
+
+body form .form-control.textarea {
+	width: 450px;
+}
+
+body form .form-control.form-verify {
+	width: 300px;
+}

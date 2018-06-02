@@ -1,0 +1,15 @@
+
+{
+  "menus": [
+    {
+      "id": "m_1",
+      "title": "menu-manage",
+      "name":"菜单管理"
+    },{
+      "id": "m_2",
+      "title": "collection",
+      "name":"收藏管理"
+    }
+  ]
+}
+

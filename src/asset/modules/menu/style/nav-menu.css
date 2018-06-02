@@ -1,0 +1,37 @@
+@import url("../../../common/style/common.css");
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 2000;
+  }
+  .navbar-nav li {
+    background-color: #544a45;
+  }
+}
+.system-name-img {
+  height: 48px;
+  width: auto;
+  position: relative;
+  right: 20px;
+}
+.navbar-inverse {
+  background-image: linear-gradient(to bottom, #2684ff 0, #2684ff 100%);
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #eee;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: rgba(8, 8, 8, 0);
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: linear-gradient(to bottom, #a44967 0, #993f60 100%);
+}
+.middle-nav {
+  max-width: 768px;
+  height: 50px;
+  line-height: 50px;
+}
